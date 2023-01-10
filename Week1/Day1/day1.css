@@ -1,0 +1,20 @@
+h1{
+    color:rgb(42, 120, 165)
+}
+.the{
+    color: blue;
+}
+#op{
+    color: rgb(106, 244, 172);
+    border-radius: 20px;
+    margin: 200px;
+    padding: 100px;
+}
+div{
+    background-color: rgb(6, 243, 208);
+    color: rgb(0, 0, 0);
+    margin: 100px;
+    padding: 100px;
+    text-align: center;
+   
+}
