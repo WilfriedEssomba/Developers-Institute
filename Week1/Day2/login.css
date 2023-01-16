@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+}
+.main{
+    padding: 0%;
+    height: 500px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+    display: inline;
+}
+.main div{
+    display: inline-block;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    margin-top: 10px;
+}
+.log{
+    background-color: rgb(255, 255, 255);
+    padding-top: 100px;
+}
+.reg{
+    background-image: linear-gradient(to right bottom, rgb(46, 46, 46), purple);
+    padding-top: 164px;
+}
+.reg img{
+    height: 150px;
+    width: 150px;
+}
+.sm img{card-img-top
+    height: 30px;
+    width: 30pX;
+    margin: 5px;
+}
+.reg .sm img{
+visibility: hdden;
+}
+.log input[type="button"]{
+    padding-right:125px ;
+    padding-left:125px ;
+    padding-top: 5px;
+    padding-bottom:5px ;
+    margin: 10px;
+    background-color: rgb(182, 38, 201);
+    border-style: none;
+}
+.log input[type="email"]{
+    background-color: rgb(216, 214, 214);
+    padding-right:125px ;
+    padding-left:20px ;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    margin: 10px;
+    border-style: none;
+}
+.log input[type="password"]{
+    background-color: rgb(216, 213, 213);
+    padding-right:120px ;
+    padding-left:20px ;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    margin: 10px;
+    border-style: none;
+}
+.log a{
+    color: black;
+    text-decoration: none;
+}
+.reg input[type="button"]{
+    height: 50px;
+    width: 150pX;
+    margin: 10px;
+    background-color:rgb(182, 38, 201);
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    border-style: ;
+}
+.sm{
+    display: inline-block;
+}
+span hr{
+    display: flex;
+    width: 100px;
+    height: 0.5%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+}
+body{
+    background-image: url("map.jpg");
+    background-size: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.one{
+    margin: 30px;
+    font-size: 25px;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.two span{
+    margin: 50px;
+}
+.two h1{
+    color: rgb(60, 91, 154);
+    margin: 20px;
+}
+.two span p{
+    font-size: 10px;
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+}
+.three div{
+    height: 250px;
+    width: 300px;
+    background-color: rgb(113, 110, 110);
+}
+.alpha{
+    position: relative;
+    display: grid;
+    grid-template-areas:
+    "a a"
+    "b b"
+    ;
+    text-align: center;
+}
+.alpha img{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    margin-left: 120px;
+    align-self: center;
+}
+.bro{
+    grid-area: a;
+    background-color: white;
+
+}
+.bro p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.alpha .bra{
+    grid-area: b;
+    background-color: plum;
+}
+.beta{
+    display: grid;
+    grid-template-areas:
+    "a a"
+    "b b"
+    ;
+    margin-top: 70px;
+}
+.beta img{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    margin-left: 120px;
+    align-self: center;
+}
+.beta .bra{
+    grid-area: b;
+    background-color: slateblue;
+    justify-content: center;
+}
+.gamma{
+    display: grid;
+    grid-template-areas:
+    "a a"
+    "b b"
+    ;
+}
+.gamma img{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    margin-left: 120px;
+    align-self: center;
+}
+.gamma .bra{
+    grid-area: b;
+    background-color: paleturquoise;
+    justify-content: center;
+}
+.bra h2{
+    margin-top: 50px;
+}
+.bra p{
+    margin-bottom: 0px;
+}

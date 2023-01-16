@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+}
+nav{
+	background-color: black;
+	height: 60px;
+	width: 100%;
+	color: white;
+	
+}
+
+h1{
+	display: inline-block;
+	margin-left: 50px;
+	padding-top: 10px;
+}
+ul{
+    margin-top: 20px;
+	float: right;
+
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+    color: white;
+}
+.main{
+    text-align: center;
+    height: 600px;
+    margin-bottom: 0px;
+    display: inline;
+}
+.first{
+    display: inline-block;
+    width: 305px;
+    height: 450px;
+    margin-top: 10px;
+}
+.one{
+    display: inline-block;
+    width: 300px;
+    height: 390px;
+    background-image: url("image1.png");
+    background-size: 300px;
+    margin-top: 10px;
+    position: relative;
+}
+span{
+    display: inline-block;
+    width: 300px;
+    height: 390px;
+    background-color: white;
+    text-align: center;
+
+}
+span input[type="button"]{
+    height: 40px;
+}
+.second{
+    display: inline-block;
+    width: 305px;
+    height: 450px;
+    margin-top: 10px;
+}
+.two{
+    display: inline-block;
+    width: 300px;
+    height: 390px;
+    background-image: url("image2.png");
+    background-size: 300px;
+    margin-top: 10px;
+}
+.third{
+    display: inline-block;
+    width: 305px;
+    height: 450px;
+    margin-top: 10px;
+}
+.three{
+    display: inline-block;
+    width: 300px;
+    height: 390px;
+    background-image: url("image3.png");
+    background-size: 300px;
+    margin-top: 10px;
+}
+.forth{
+    display: inline-block;
+    width: 305px;
+    height: 450px;
+    margin-top: 10px;
+}
+.four{
+    display: inline-block;
+    width: 300px;
+    height: 390px;
+    background-image: url("image4.png");
+    background-size: 300px;
+    margin-top: 10px;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+.cart{
+    position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+}
+.one:hover .cart{
+    opacity: 1;
+}

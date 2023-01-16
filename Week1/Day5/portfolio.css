@@ -1,0 +1,181 @@
+.main{
+    background-color: rgb(238, 235, 231);
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+nav{
+    background-color: rgb(255, 136, 0);
+    padding: 10px;
+    color: white;
+
+}
+nav p{
+    display: inline;
+}
+nav ul {
+	display: inline;
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+    padding-right: 20px;
+}
+
+.one{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one::before{
+    content: "";
+    background-image: url("clavier.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+.bri{
+    border-left: 2px solid aquamarine;
+    padding: 50px;
+}
+.bro{
+    position: relative;
+}
+.bro h3{
+    color: rgb(255, 136, 0);
+}
+input[type="button"]{
+    background-color: rgb(255, 136, 0);
+    color: white;
+    border: 0px;
+    border-style: none;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.un{
+    text-align: center;
+    color: rgb(255, 136, 0);
+    margin: 50px;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.two span{
+margin: 30px;
+}
+.bra{
+    text-align: center;
+}
+.three{
+    height: 300px;
+    display: grid;
+    grid-template-areas: 
+    "a b c"
+    "d e f"
+    ;
+    gap: 10px;
+    margin: 100px;
+}
+.la{
+    grid-area: "a";
+}
+.le{
+    grid-area: "b";
+}
+.li{
+    grid-area: "c";
+}
+.lo{
+    grid-area: "d";
+}
+.lu{
+    grid-area: "e";
+}
+.ly{
+    grid-area: "f";
+}
+.four{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card{
+    margin-right: 20px;
+    text-align: center;
+    background-color: rgb(238, 235, 231);
+}
+a{
+    text-decoration: none;
+}
+.five{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card-img-top{
+    height: 200px;
+}
+.card-body{
+    height: 100px;
+    background-color: rgb(238, 235, 231);
+    border-style: none;
+    border: 0px;
+}
+.six{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+}
+.mdr{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.mdr h1{
+    color: rgb(255, 136, 0);
+}
+.mdr span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.mdr span i{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    margin-top: 15px;
+    color: orange;
+}
+.omg{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.omg input{
+    width: 400px;
+    margin: 5px;
+}
