@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Splash&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+#barcode{
+    display:flex;
+    justify-content:space-between;
+    background-color:rgb(0, 0, 0);
+    height: 70px;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+
+}
+
+#barcode a{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+}
+
+.nav{
+    margin-left: 25px;
+}
+.nav img{
+    height: 40px;
+    width: 40px;
+}
+body{
+
+    height: 100%;
+    background-image: linear-gradient(to right bottom,rgb(218, 225, 245) ,darkblue);
+}
+
+h1, h2, h3, h4{
+    font-family: 'Comic Neue', cursive;
+}
+
+#code{
+    font-size: 25px;
+    color: rgb(119, 121, 17);
+}
+
+.symb{
+    color:red;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+.text{
+    font-weight: bold;
+}
+.a{
+    font-size: 25px;
+}
+
+.b{
+    font-size: 20px;
+}
+ul li{
+    margin: 4px;
+}
+
+h4{
+    margin-left: 10px:
+}
+
+#player{
+    height: 400px;
+    width: 800px;
+}

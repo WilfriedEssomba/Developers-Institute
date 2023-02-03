@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form id="form1" onsubmit="getvalue()"> 
+        <label>First name: </label><input type="text" name="fname" value="David"><br> 
+        <label>Last name: </label><input type="text" name="lname" value="BenGurion"><br> 
+        <input type="submit" value="Submit"> 
+    </form>  -->
+    <select id="select1"> 
+        <option value="apple">Middle School</option>
+        <option value="pear">University</option>
+        <option value="banana">College</option>
+    </select>
+    <script>
+        let opt = document.getElementById("select1")
+        console.log(opt.options[1])
+        let new1 = document.createElement("option")
+        opt.appendChild(new1)
+        opt.options[3].value = "Work"
+        let new2 = document.createElement("option")
+        opt.add(new2, opt)
+        opt.options[1].value = "primary school"
+
+
+
+
+
+
+        // let form = document.forms[0]
+        // let first = form.elements.fname
+        // let last = form.elements.lname
+        // console.log(first.value)
+        // console.log(last.value)
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>Users:</div>
+        <ul>
+            <li>John</li>
+            <li>Pete</li>
+        </ul>
+    <script>
+        let div = document.querySelector("div")
+        div.setAttribute("style", "backgroundcolor:blue")
+        div.setAttribute("style", "padding:50px")
+        let a = document.querySelector("li:first-child")
+        a.setAttribute("style", "visibility: hidden;") //or a.style.display ='none'
+        let b = document.querySelector("li:last-child")
+        b.style.border = "2px solid black"
+        div.parentElement.style.fontSize = "20px"
+
+    </script>
+</body>
+</html>

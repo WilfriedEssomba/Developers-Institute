@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <table id="sampleTable" border="1"> 
+        <tr>
+            <td>Row1 cell1</td> 
+            <td>Row1 cell2</td>
+        </tr> 
+        <tr>
+            <td>Row2 cell1</td> 
+            <td>Row2 cell2</td>
+        </tr> 
+        </table>
+        
+        <input type="button" onclick="insertRow()" value="Insert row">  
+        <button onclick="alert(this.innerHTML)">Click me</button> -->
+        <div id="yo">
+            <button id="jsstyle">Style</button>
+        </div>
+        <script>
+            let b = document.getElementById("yo")
+            let a = document.getElementById("jsstyle")
+            b.addEventListener("click", bab)
+            a.addEventListener("click", bro)
+
+            function bab(e){
+                b.style.color
+            
+            }
+            function bro(e){
+                alert("hey")
+                e.stopPropagation()
+            }
+
+            // function insertRow(){
+            //     let table = document.getElementById("sampleTable")
+            // let tr = document.createElement("tr")
+            // let td = document.createElement("td")
+            // let td2 =  document.createElement("td")
+            // let rc = document.createTextNode("Row cell")
+            // let rc2 = document.createTextNode("Row cell2")
+            // table.appendChild(tr)
+            // tr.appendChild(td)
+            // tr.appendChild(td2)
+            // td.appendChild(rc)
+            // td2.appendChild(rc2)
+            // }
+            
+        </script>
+</body>
+</html>
