@@ -43,9 +43,12 @@ make_shirt()
 make_shirt("m")
 make_shirt("s", "I love myself")
 
+
 # Exercise 6
 
 # Exercise 7
-def get_random_temp(celsius) :
+def get_random_temp(celsius):
     return celsius
+
+
 get_random_temp(20)
